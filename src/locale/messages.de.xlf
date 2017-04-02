@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="af2ccf4b5dba59616e92cf1531505af02da8f6d2" datatype="html">
+        <source>Hello i18n!</source>
+        <target>Hallo i18n!</target>
+        <note priority="1" from="description">An introduction header for this sample</note>
+        <note priority="1" from="meaning">User welcome</note>
+      </trans-unit>
+      <trans-unit id="85a790ca984dcf114b70f5207802b5d54968a279" datatype="html">
+        <source>I don&apos;t output any element</source>
+        <target>Ich will nichts anzeigen</target>
+        <note priority="1" from="description"> I don&apos;t output any element&apos;</note>
+        <note priority="1" from="meaning">An example string </note>
+      </trans-unit>
+      <trans-unit id="08c68be0a6f1509ac630ec5a8904851892d6dfbf" datatype="html">
+        <source>Hello world. I will demonstrate you the power of the angular2 i18n feature. But to be powerfull, it will have to work, but that wasn&apos;t the case on my last 2 tries... Hopefuly this one is the good one.</source>
+        <target>Hallo Welt. Ich werde Ihnen die Macht der Angular2 i18n Feature demonstrieren. Aber um mächtig zu sein, muss es funktionieren, aber das war nicht der Fall auf meine letzten 2 Versuche ... Hoffentlich ist das eine gute.</target>
+        <note priority="1" from="description"> This example text is a use case to demonstrate the i18n</note>
+        <note priority="1" from="meaning">an example text </note>
+      </trans-unit>
+      <trans-unit id="701174153757adf13e7c24a248c8a873ac9f5193" datatype="html">
+        <source>Angular logo</source>
+        <target>Angular logo</target>
+      </trans-unit>
+      <trans-unit id="6e22e74e8cbd3095560cfe08993c4fdfa3c50eb0" datatype="html">
+        <source/>
+        <target/>
+      </trans-unit>
+      <trans-unit id="61cafedb85466ab789b3ae817bba1a545468ee1c" datatype="html">
+        <source>The hero is <x id="ICU"/></source>
+        <target>Der held ist <x id="ICU"/></target>
+      </trans-unit>
+      <trans-unit id="14c7055d67771a3b7b6888d282ac092896be06b6" datatype="html">
+        <source/>
+        <target>{gender, select, m {männlich} f {weiblich}}</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
