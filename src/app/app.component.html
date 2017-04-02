@@ -1,0 +1,21 @@
+<h1 i18n="User welcome|An introduction header for this sample">Hello i18n!</h1>
+<div>
+    <button (click)="changeLocalTo('EN')">EN</button>
+    <button (click)="changeLocalTo('FR')">FR</button>
+    <button (click)="changeLocalTo('ES')">ES</button>
+</div>
+
+<ng-container i18n="An example string | I don't output any element'">I don't output any element</ng-container>
+
+<div i18n="an example text | This example text is a use case to demonstrate the i18n">Hello world. I will demonstrate you the power of the angular2 i18n feature. But to be powerfull, it will have to work, but that wasn't the case on my last 2 tries... Hopefuly this one is the good one.</div>
+<br />
+
+<img [src]="logo" i18n-title title="Angular logo" />
+<br>
+<button (click)="inc(1)">+</button> <button (click)="inc(-1)">-</button>
+<span i18n>{wolves, plural, =0 {no wolves} =1 {one wolf} =2 {two wolves} other {a wolf pack}}</span>
+({{wolves}})
+<br><br>
+<button (click)="male()">&#9794;</button> <button (click)="female()">&#9792;</button>
+<span i18n>The hero is {gender, select, m {male} f {female}}</span>
+<br>
