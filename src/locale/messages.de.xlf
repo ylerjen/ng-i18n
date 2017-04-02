@@ -26,7 +26,7 @@
       </trans-unit>
       <trans-unit id="6e22e74e8cbd3095560cfe08993c4fdfa3c50eb0" datatype="html">
         <source/>
-        <target/>
+        <target>{wolves, plural, =0 {kein Wolf} =1 {ein Wolf} =2 {zwei Wölfe} other {ein Wolfsrudel}}</target>
       </trans-unit>
       <trans-unit id="61cafedb85466ab789b3ae817bba1a545468ee1c" datatype="html">
         <source>The hero is <x id="ICU"/></source>
